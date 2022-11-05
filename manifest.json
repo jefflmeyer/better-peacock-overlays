@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Better Peacock Overlays",
+  "version": "1.0",
+
+  "description": "This extension aims to make Peacock overlays less obtrusive during video playback.",
+  "icons": {
+    "48": "icons/eye.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.peacocktv.com/*"],
+      "css": ["overlays.css"]
+    }
+  ]
+}
