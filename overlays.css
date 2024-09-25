@@ -1,13 +1,6 @@
-.playback-overlay__container,
 .playback-rating-overlay__container,
 .playback-header__container {
   background: none !important;
-}
-
-.playback-header__container,
-.playback-overlay__container-upper-controls,
-.playback-controls__container {
-  transform: scale(0.75) !important;
 }
 
 .playback-metadata__container-title {
@@ -16,4 +9,14 @@
 
 .playback-metadata__container {
   margin-bottom: 0 !important;
+}
+
+.playback-overlay__container.vod {
+  background: linear-gradient(1turn,#000 0%,#0000 32%) !important;
+  justify-content: flex-end;
+  padding-bottom: 0rem !important;
+}
+
+.playback-overlay__container.vod.hidden {
+  background: none !important;
 }
