@@ -4,7 +4,7 @@
   "version": "1.0",
 
   "description": "This extension aims to make Peacock overlays less obtrusive during video playback.",
-  "homepage_url": "https://github.com/bakerTX/better-peacock-overlays",
+  "homepage_url": "https://github.com/jefflmeyer/better-peacock-overlays",
   "icons": {
     "48": "icons/eye.png"
   },
